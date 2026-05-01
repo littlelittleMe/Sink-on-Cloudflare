@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "sink",
+  "name": "sink-on-cloudflare",
   "main": ".output/server/index.mjs",
   "assets": {
     "binding": "ASSETS",
@@ -35,7 +35,7 @@
     {
       "binding": "KV",
       "preview_id": "ef93d42dc4b34969bab404d2e80f8dd3",
-      "id": "ef93d42dc4b34969bab404d2e80f8dd3" // IMPORTANT: Change this to your KV namespace ID
+      "id": "bad401028540476c8006e23a71c5c8c1" // IMPORTANT: Change this to your KV namespace ID
     }
   ],
   "r2_buckets": [
